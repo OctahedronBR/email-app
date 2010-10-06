@@ -1,0 +1,8 @@
+application: octahedronpage
+version: email
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: sendemail.py
