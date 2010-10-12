@@ -1,0 +1,9 @@
+This is a very simple application to send a email using post method.
+
+It was developed to be used at Octahedron's site, within drydrop.
+
+To install it we copy the sendemail.py to the dryapp folder and added the following lines to the app.yaml's handlers section:
+
+	- url: /email
+	  script: sendemail.py
+
